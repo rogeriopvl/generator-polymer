@@ -1,18 +1,31 @@
-# Polymer generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-polymer.png?branch=master)](http://travis-ci.org/yeoman/generator-polymer)
+# Web app generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-webapp.png?branch=master)](http://travis-ci.org/yeoman/generator-webapp)
 
-Scaffolds out [Polymer](http://www.polymer-project.org).
-
-> Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.
-
-Note that this project is still in the early phases of development and is not yet ready for consumption. Thanks for waiting until we're ready :)
+Yeoman generator that scaffolds out a front-end web app.
 
 
-## Getting started
+## Getting Started
 
-- Install: `npm install -g generator-polymer`
-- Run it with [yo](https://github.com/yeoman/yo): `yo polymer`
+- Install: `npm install -g generator-webapp`
+- Run: `yo webapp`
+- Run `grunt` for building and `grunt server` for preview
+
+
+## Options
+
+* `--skip-install`
+
+  Skips the automatic execution of `bower` and `npm` after scaffolding has finished.
+
+* `--test-framework <framework>`
+
+  Defaults to `mocha`. Can be switched for another supported testing framework like `jasmine`.
+
+
+## Contribute
+
+See the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)
 
 
 ## License
 
-MIT License • © [Yeoman team](http://yeoman.io)
+[BSD license](http://opensource.org/licenses/bsd-license.php)

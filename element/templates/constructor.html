@@ -1,0 +1,14 @@
+<polymer-element name="my-element" constructor="MyElement">
+  <template>
+    This is a <b>my-element</b> with a ready() method.
+    <span id="readyEl">Not ready...</span>
+  </template>
+  <script>
+    Polymer('my-element', {
+      owner: "Daniel",
+      ready: function() {
+        this.$.readyEl.innerText = this.owner + " is ready!";
+      }
+    });
+  </script>
+</polymer-element>
